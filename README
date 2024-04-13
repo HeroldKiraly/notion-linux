@@ -1,0 +1,6 @@
+Notion Electron wrapper so that we can have a desktop app on Linux systems
+
+Installation:
+  1. Download the latest AppImage build
+  2. Use your favorite AppImage software to add it as a permanent application
+  3. Enjoy Notion on Linux!
