@@ -1,0 +1,40 @@
+{
+  "name": "notion-linux",
+  "productName": "Notion",
+  "version": "0.0.5",
+  "author": "Herold Levente Kiraly",
+  "license": "MIT",
+  "description": "An electron wrapper for Notion.so for Linux systems",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "app:dir": "electron-builder --dir",
+    "app:dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeroldKiraly/notion-linux.git"
+  },
+  "keywords": [
+    "Notion",
+    "Linux",
+    "Electron"
+  ],
+  "bugs": {
+    "url": "https://github.com/HeroldKiraly/notion-linux/issues"
+  },
+  "homepage": "https://github.com/HeroldKiraly/notion-linux#readme",
+  "devDependencies": {
+    "electron": "^29.3.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.heroldkiraly.notion-linux",
+    "files": "!.gitignore",
+    "linux": {
+      "target": "AppImage",
+      "category": "Office",
+      "icon": "icon.png"
+    }
+  }
+}
